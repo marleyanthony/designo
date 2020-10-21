@@ -1,0 +1,30 @@
+.hero {
+  background-color: $primary-one;
+  color: $primary-three;
+  height: 52.6875rem;
+  padding: 5rem 1.5rem 0;
+  overflow: hidden;
+  text-align: center;
+
+  &__lead-text {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 0.875rem;
+  }
+
+  &__sub-text {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__cta-btn {
+    @include cta-btn;
+  }
+
+  &__img {
+    // width: 320px;
+    margin-left: -40px;
+  }
+}

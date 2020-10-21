@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.1875rem 1.5rem;
+  max-height: 6rem;
+
+  &__logo {
+    width: 12.625rem;
+    height: 1.6875rem;
+  }
+}
