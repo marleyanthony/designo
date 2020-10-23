@@ -1,5 +1,8 @@
 import React from 'react';
 import GlobalHero from '../global-components/hero/Hero';
+import AppDesignCards from './cards/AppDesignCards';
+import WebDesignCard from '../global-components/design-cards/WebDesignCard';
+import GraphicDesignCard from '../global-components/design-cards/GraphicDesignCard';
 
 class AppDesign extends React.Component {
   state = {
@@ -9,8 +12,11 @@ class AppDesign extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="app-design">
         <GlobalHero heading={this.state.heading} subHeading={this.state.subHeading} />
+        <AppDesignCards />
+        <WebDesignCard />
+        <GraphicDesignCard />
       </div>
     )
   }

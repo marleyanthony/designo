@@ -1,5 +1,8 @@
 import React from 'react';
 import GlobalHero from '../global-components/hero/Hero';
+import AppDesignCard from '../global-components/design-cards/AppDesignCard';
+import WebDesignCard from '../global-components/design-cards/WebDesignCard';
+import GraphicDesignCards from '../graphic-design/cards/GraphicDesignCards';
 
 class GraphicDesign extends React.Component {
   state = {
@@ -11,6 +14,9 @@ class GraphicDesign extends React.Component {
     return (
       <div>
         <GlobalHero heading={this.state.heading} subHeading={this.state.subHeading} />
+        <GraphicDesignCards />
+        <AppDesignCard />
+        <WebDesignCard />
       </div>
     )
   }
