@@ -1,0 +1,83 @@
+.main {
+  &__project-cards {
+    padding: 7.5rem 1.5rem;
+  }
+
+  &__card-img {
+    border-radius: 15px;
+  }
+
+  &__card-wrapper {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  &__card-lead-text {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    color: $primary-three;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    line-height: 36px;
+
+    &--graphic-design {
+      left: 50px;
+    }
+  }
+
+  &__card-sub-text-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+  }
+
+  &__card-sub-text {
+    margin-right: 1rem;
+    text-transform: uppercase;
+    color: $primary-three;
+    size: 0.9375rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+}
+
+
+// web design cards 
+.cards {
+  margin-top: 6rem;
+  padding: 0 1.5rem;
+
+  &__wrapper {
+    max-width: 327px;
+    height: auto;
+    background-color: #FDF3F0;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  &__img {
+    width: 327px;
+    height: 320px;
+    border-radius: 15px;
+  }
+
+  &__heading {
+    color: $primary-one;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.25rem;
+    margin: 2rem 0 1rem;
+  }
+
+  &__subtext {
+    padding: 0 1.875rem 1.875rem;
+    color: $secondary-two;
+    font-weight: 400;
+  }
+}

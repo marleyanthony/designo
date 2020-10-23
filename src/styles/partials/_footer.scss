@@ -1,0 +1,55 @@
+.footer {
+  padding: 15.8125rem 1.5rem 4rem;
+  background-color: $primary-two;
+  position: relative;
+  text-align: center;
+  color: $primary-three;
+
+  &__logo {
+    width: 202px;
+    height: 27px;
+    margin-bottom: 2rem;
+  }
+
+  &__hr {
+    margin-bottom: 2rem;
+  }
+
+  &__nav-item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+  }
+
+  &__bottom {
+    margin-top: 0.5rem;
+  }
+
+  &__bottom-heading {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  &__bottom-sub-text {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  &__office, 
+  &__contact {
+    margin-bottom: 2.5rem;
+  }
+
+  &__social-icon {
+    margin-right: 1rem;
+
+    &--last {
+      margin-right: 0;
+    }
+  }
+}

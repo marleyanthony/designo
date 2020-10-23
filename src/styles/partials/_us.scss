@@ -1,0 +1,31 @@
+.us {
+  padding: 0 1.5rem 1.5625rem;
+  text-align: center;
+
+  &__trait-img {
+    margin-bottom: 3rem;
+  }
+
+  &__trait-header {
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: $secondary-two;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+
+  &__trait-sub-text {
+    color: $secondary-two;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  &__trait-wrapper {
+    margin-bottom: 6rem;
+
+    &--final-wrapper {
+      margin-bottom: 19.4375rem;
+    }
+  }
+}
