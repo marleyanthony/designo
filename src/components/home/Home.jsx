@@ -1,13 +1,13 @@
 import React from 'react';
 import Hero from './hero/Hero';
-import Cards from './cards/Cards';
+import DesignCards from './design-cards/DesignCards';
 import Us from './us/Us';
 
 const Home = () => {
   return (
     <main className="main">
       <Hero />
-      <Cards />
+      <DesignCards />
       <Us />
     </main>
   )

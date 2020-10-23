@@ -58,7 +58,7 @@
   margin-left: -40px;
 }
 
-.web-design__hero {
+.global__hero {
   height: 320px;
   background-color: #e7816b;
   color: #ffffff;
@@ -79,13 +79,13 @@
   padding: 0 1.5rem;
 }
 
-.web-design__hero-heading {
+.global__hero-heading {
   font-weight: 500;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-.web-design__hero-sub-text {
+.global__hero-sub-text {
   font-size: 0.9375rem;
   font-weight: 400;
 }
@@ -172,6 +172,10 @@
   padding: 0 1.875rem 1.875rem;
   color: #333136;
   font-weight: 400;
+}
+
+.cards__design-cards {
+  padding: 0 1.5rem;
 }
 
 .us {
