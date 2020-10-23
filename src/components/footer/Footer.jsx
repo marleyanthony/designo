@@ -6,6 +6,7 @@ import youtube from '../../assets/shared/desktop/icon-youtube.svg';
 import pinterest from '../../assets/shared/desktop/icon-pinterest.svg';
 import twitter from '../../assets/shared/desktop/icon-twitter.svg';
 import instagram from '../../assets/shared/desktop/icon-instagram.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -17,7 +18,9 @@ const Footer = () => {
           <hr className="footer__hr" />
         </div>
         <div className="footer__nav-wrapper">
-          <h5 className="footer__nav-item">Our Company</h5>
+          <Link to="/about">
+            <h5 className="footer__nav-item">Our Company</h5>
+          </Link>
           <h5 className="footer__nav-item">Locations</h5>
           <h5 className="footer__nav-item">Contact</h5>
         </div>

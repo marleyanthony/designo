@@ -250,6 +250,7 @@
   position: relative;
   text-align: center;
   color: #ffffff;
+  margin-top: 20rem;
 }
 
 .footer__logo {
@@ -297,5 +298,83 @@
 
 .footer__social-icon--last {
   margin-right: 0;
+}
+
+.about__world-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1.5rem;
+  height: 545px;
+  background-color: #FDF3F0;
+}
+
+.about__world-class-header {
+  color: #e7816b;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.about__world-class-content {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 25px;
+}
+
+.about__world-class-content--first-paragraph {
+  margin-bottom: 2rem;
+}
+
+.about__location-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 7.5rem;
+}
+
+.about__location-card {
+  text-align: center;
+}
+
+.about__location-card-image {
+  margin-bottom: 3rem;
+}
+
+.about__location-card-location {
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.about__location-card-cta-btn {
+  border: none;
+  padding: 1.125rem 1.5625rem 1rem 1.5rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9375rem;
+  background-color: #e7816b;
+  color: #ffffff;
+}
+
+.about__the-real-deal-image {
+  margin-top: 7.5rem;
 }
 /*# sourceMappingURL=app.css.map */

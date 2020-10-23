@@ -6,6 +6,7 @@ import Home from './components/home/Home';
 import WebDesign from './components/web-design/WebDesign';
 import AppDesign from './components/app-design/AppDesign';
 import GraphicDesign from './components/graphic-design/GraphicDesign';
+import About from './components/about/About';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
         <Route path="/web-design" component={WebDesign} />
         <Route path="/app-design" component={AppDesign} />
         <Route path="/graphic-design" component={GraphicDesign} />
+        <Route path="/about" component={About} />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

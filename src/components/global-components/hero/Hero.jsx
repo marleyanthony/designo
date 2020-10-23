@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Hero = (props) => {
-  console.log(props);
   return (
     <div className="global__hero">
       <h4 className="global__hero-heading">{props.heading}</h4>
