@@ -3,6 +3,7 @@ import GlobalHero from '../global-components/hero/Hero';
 import AppDesignCards from './cards/AppDesignCards';
 import WebDesignCard from '../global-components/design-cards/WebDesignCard';
 import GraphicDesignCard from '../global-components/design-cards/GraphicDesignCard';
+import Footer from '../footer/Footer';
 
 class AppDesign extends React.Component {
   state = {
@@ -17,6 +18,7 @@ class AppDesign extends React.Component {
         <AppDesignCards />
         <WebDesignCard />
         <GraphicDesignCard />
+        <Footer />
       </div>
     )
   }

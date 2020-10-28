@@ -1,7 +1,8 @@
 import React from 'react';
 import Hero from './hero/Hero';
-import DesignCards from './design-cards/DesignCards';
+import DesignCards from '../global-components/design-cards/DesignCards';
 import Us from './us/Us';
+import Footer from '../footer/Footer';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <DesignCards />
       <Us />
+      <Footer />
     </main>
   )
 }

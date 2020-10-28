@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../global-components/hero/Hero';
 import Cards from './card/Cards';
+import Footer from '../footer/Footer';
 
 class WebDesign extends React.Component {
   state = {
@@ -13,6 +14,7 @@ class WebDesign extends React.Component {
       <div className="web-design">
         <Hero heading={this.state.heading} subHeading={this.state.subHeading} />
         <Cards />
+        <Footer />
       </div>
     )
   }

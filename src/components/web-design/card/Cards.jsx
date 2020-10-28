@@ -1,7 +1,7 @@
 import React from 'react';
 import webDesignCardsInfo from './cardInfo';
-import AppDesignCard from '../../home/design-cards/AppDesignCard';
-import GraphicDesignCard from '../../home/design-cards/GraphicDesignCard';
+import AppDesignCard from '../../global-components/design-cards/AppDesignCard';
+import GraphicDesignCard from '../../global-components/design-cards/GraphicDesignCard';
 
 const Cards = () => {
   return (

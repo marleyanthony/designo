@@ -5,6 +5,7 @@ import aboutUsImage from '../../assets/about/mobile/image-world-class-talent.jpg
 import LocationCards from '../global-components/location-cards/LocationCards';
 import realDealImage from '../../assets/about/mobile/image-real-deal.jpg';
 import AboutText from '../global-components/about-text/AboutText';
+import Footer from '../footer/Footer';
 
 class About extends React.Component {
   state = {
@@ -42,6 +43,7 @@ class About extends React.Component {
             secondParagraph={this.state.realDealSecondParagraph}
           />
         </div>
+        <Footer />
       </div>
     )
   }

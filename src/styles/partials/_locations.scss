@@ -1,0 +1,38 @@
+.locations {
+  &__card-wrapper {
+    height: 714px;
+    margin-bottom: 2.5rem;
+    background-color: #FDF3F0;
+  }
+
+  &__contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 394px;
+  }
+
+  &__country {
+    color: $primary-one;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  &__office-header,
+  &__office-address,
+  &__office-city,
+  &__phone {
+    margin-bottom: 0.5rem;
+  }
+
+  &__office-wrapper {
+    margin-bottom: 1.5rem;
+  }
+
+  &__contact-header {
+    margin-bottom: 0.5rem;
+  }
+}

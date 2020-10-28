@@ -100,7 +100,7 @@
 
 .main__card-wrapper {
   position: relative;
-  margin: 0 1.5rem 1.5rem;
+  margin: 0 0 1.5rem;
 }
 
 .main__card-lead-text {
@@ -244,60 +244,47 @@
   font-size: 0.9375rem;
 }
 
-.footer {
-  padding: 15.8125rem 1.5rem 4rem;
-  background-color: #1d1c1e;
-  position: relative;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 20rem;
-}
-
-.footer__logo {
-  width: 202px;
-  height: 27px;
-  margin-bottom: 2rem;
-}
-
-.footer__hr {
-  margin-bottom: 2rem;
-}
-
-.footer__nav-item {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 14px;
-  letter-spacing: 2px;
-  margin-bottom: 2rem;
-}
-
-.footer__bottom {
-  margin-top: 0.5rem;
-}
-
-.footer__bottom-heading {
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-}
-
-.footer__bottom-sub-text {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
-}
-
-.footer__office, .footer__contact {
+.locations__card-wrapper {
+  height: 714px;
   margin-bottom: 2.5rem;
+  background-color: #FDF3F0;
 }
 
-.footer__social-icon {
-  margin-right: 1rem;
+.locations__contact-info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 394px;
 }
 
-.footer__social-icon--last {
-  margin-right: 0;
+.locations__country {
+  color: #e7816b;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.locations__office-header, .locations__office-address, .locations__office-city, .locations__phone {
+  margin-bottom: 0.5rem;
+}
+
+.locations__office-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.locations__contact-header {
+  margin-bottom: 0.5rem;
 }
 
 .about__world-class {
@@ -376,5 +363,138 @@
 
 .about__the-real-deal-image {
   margin-top: 7.5rem;
+}
+
+.get-in-touch {
+  background-color: #e7816b;
+  color: #ffffff;
+  height: 764px;
+  text-align: center;
+  padding: 4.5rem 1.5rem;
+  margin-bottom: 90rem;
+}
+
+.get-in-touch__heading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.get-in-touch__sub-heading {
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 0.9375rem;
+  margin-bottom: 3rem;
+}
+
+.get-in-touch__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.get-in-touch__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 11px 13px;
+  height: 3.5rem;
+}
+
+.get-in-touch__input--textarea {
+  height: 7rem;
+  margin-bottom: 2.5rem;
+}
+
+.get-in-touch__input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.get-in-touch__input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.get-in-touch__input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.get-in-touch__input::placeholder {
+  color: #ffffff;
+}
+
+.get-in-touch__submit-btn {
+  border: none;
+  padding: 1.125rem 1.5625rem 1rem 1.5rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9375rem;
+  width: 152px;
+}
+
+.footer {
+  padding: 15.8125rem 1.5rem 4rem;
+  background-color: #1d1c1e;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20rem;
+}
+
+.footer__logo {
+  width: 202px;
+  height: 27px;
+  margin-bottom: 2rem;
+}
+
+.footer__hr {
+  margin-bottom: 2rem;
+}
+
+.footer__nav-item {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__bottom {
+  margin-top: 0.5rem;
+}
+
+.footer__bottom-heading {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer__bottom-sub-text {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.footer__office, .footer__contact {
+  margin-bottom: 2.5rem;
+}
+
+.footer__social-icon {
+  margin-right: 1rem;
+}
+
+.footer__social-icon--last {
+  margin-right: 0;
 }
 /*# sourceMappingURL=app.css.map */

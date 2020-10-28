@@ -11,16 +11,15 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className="footer">
-      <GetInTouch />
       <div className="footer__top">
         <div className="footer__logo-wrapper">
           <img src={logoLight} alt="logo" className="footer__logo" />
           <hr className="footer__hr" />
         </div>
         <div className="footer__nav-wrapper">
-          <Link to="/about" className="footer__nav-item">Our Company</Link>
-          <Link to="/locations" className="footer__nav-item">Locations</Link>
-          <Link to="/contact" className="footer__nav-item">Contact</Link>
+          <Link to="/about"><h5 className="footer__nav-item">Our Company</h5></Link>
+          <Link to="/locations"><h5 className="footer__nav-item">Locations</h5></Link>
+          <Link to="/contact"><h5 className="footer__nav-item">Contact</h5></Link>
         </div>
       </div>
       <div className="footer__bottom">
