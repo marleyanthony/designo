@@ -202,14 +202,6 @@
   font-size: 1rem;
 }
 
-.us__trait-wrapper {
-  margin-bottom: 6rem;
-}
-
-.us__trait-wrapper--final-wrapper {
-  margin-bottom: 19.4375rem;
-}
-
 .contact {
   background-color: #e7816b;
   color: #ffffff;
@@ -465,9 +457,12 @@
   font-size: 0.875rem;
   line-height: 14px;
   letter-spacing: 2px;
-  margin-bottom: 2rem;
   color: #ffffff;
   text-decoration: none;
+}
+
+.footer__nav-item-text {
+  margin-bottom: 2rem;
 }
 
 .footer__bottom {

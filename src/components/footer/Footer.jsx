@@ -18,9 +18,15 @@ const Footer = () => {
           <hr className="footer__hr" />
         </div>
         <div className="footer__nav-wrapper">
-          <Link to="/about" className="footer__nav-item">Our Company</Link>
-          <Link to="/locations" className="footer__nav-item">Locations</Link>
-          <Link to="/contact" className="footer__nav-item">Contact</Link>
+          <Link to="/about" className="footer__nav-item">
+            <h5 className="footer__nav-item-text">Our Company</h5>
+          </Link>
+          <Link to="/locations" className="footer__nav-item">
+            <h5 className="footer__nav-item-text">Locations</h5>
+          </Link>
+          <Link to="/contact" className="footer__nav-item">
+            <h5 className="footer__nav-item-text">Contact</h5>
+          </Link>
         </div>
       </div>
       <div className="footer__bottom">

@@ -22,9 +22,12 @@
     font-size: 0.875rem;
     line-height: 14px;
     letter-spacing: 2px;
-    margin-bottom: 2rem;
     color: $primary-three;
     text-decoration: none;
+  }
+
+  &__nav-item-text {
+    margin-bottom: 2rem;
   }
 
   &__bottom {
